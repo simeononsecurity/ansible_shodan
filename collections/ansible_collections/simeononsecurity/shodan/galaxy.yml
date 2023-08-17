@@ -1,7 +1,7 @@
 namespace: "simeononsecurity"
 name: "ansible_shodan"
 description: "Ansible modules for Shodan API interaction"
-version: "1.0.1"
+version: "1.0.2"
 readme: "README.md"
 homepage: "https://simeononsecurity.ch/github/ansible_shodan"
 issues: "https://github.com/simeononsecurity/ansible_shodan/issues"
