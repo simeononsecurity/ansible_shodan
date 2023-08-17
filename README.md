@@ -2,6 +2,7 @@
 
 ![Ansible](https://img.shields.io/badge/ansible-2.10%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
+[![Ansible Galaxy](https://github.com/simeononsecurity/ansible_shodan/actions/workflows/ansible_galaxy_collection.yml/badge.svg)](https://github.com/simeononsecurity/ansible_shodan/actions/workflows/ansible_galaxy_collection.yml)
 
 This collection provides Ansible modules for interacting with the Shodan API. The modules allow you to perform various tasks related to Shodan, such as querying information, searching for hosts, and more.
 
@@ -9,10 +10,10 @@ This collection provides Ansible modules for interacting with the Shodan API. Th
 
 This collection includes the following modules:
 
-- [`get_shodan_api_info`](https://github.com/simeononsecurity/ansible_shodan/tree/main/plugins/modules/get_shodan_api_info.py): Returns information about the API plan linked to the given API key.
-- [`get_shodan_client_http_headers`](https://github.com/simeononsecurity/ansible_shodan/tree/main/plugins/modules/get_shodan_client_http_headers.py): Shows the HTTP headers that your client sends when connecting to a web server.
-- [`get_shodan_client_ip`](https://github.com/simeononsecurity/ansible_shodan/tree/main/plugins/modules/get_shodan_client_ip.py): Get your current IP address as seen from the Internet.
-- ...
+- [`get_shodan_api_info`](https://github.com/simeononsecurity/ansible_shodan/tree/main/collections/ansible_collections/simeononsecurity/shodan/plugins/modules/get_shodan_api_info.py): Returns information about the API plan linked to the given API key.
+- [`get_shodan_client_http_headers`](https://github.com/simeononsecurity/ansible_shodan/tree/main/collections/ansible_collections/simeononsecurity/shodan/plugins/modules/get_shodan_client_http_headers.py): Shows the HTTP headers that your client sends when connecting to a web server.
+- [`get_shodan_client_ip`](https://github.com/simeononsecurity/ansible_shodan/tree/main/collections/ansible_collections/simeononsecurity/shodan/plugins/modules/get_shodan_client_ip.py): Get your current IP address as seen from the Internet.
+- See more at the [modules directory..](https://github.com/simeononsecurity/ansible_shodan/tree/main/collections/ansible_collections/simeononsecurity/shodan/plugins/modules/)
 
 ## Installation
 
