@@ -57,3 +57,11 @@ Special thanks to the Shodan API for providing the capabilities to interact with
 
 ## Alternate Versions
 If you need a version in powershell, we have our [Shodan Powershell repo](https://github.com/simeononsecurity/Shodan_PS).
+
+<a href="https://simeononsecurity.ch" target="_blank" rel="noopener noreferrer">
+  <h2>Explore the World of Cybersecurity</h2>
+</a>
+<a href="https://simeononsecurity.ch" target="_blank" rel="noopener noreferrer">
+  <img src="https://simeononsecurity.ch/img/banner.png" alt="SimeonOnSecurity Logo" width="300" height="300">
+</a>
+
