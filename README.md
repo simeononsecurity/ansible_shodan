@@ -24,6 +24,8 @@ You can install this collection using the following command:
 ansible-galaxy collection install simeononsecurity.ansible_shodan
 ```
 
+See the collection on the [Ansible Galaxy](https://galaxy.ansible.com/simeononsecurity/ansible_shodan) page.
+
 ## Usage
 To use these modules, include them in your Ansible playbooks or roles and reference them using their respective names. Here's an example playbook using the `get_shodan_api_info` module:
 ```yml
