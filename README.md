@@ -43,7 +43,7 @@ To use these modules, include them in your Ansible playbooks or roles and refere
         var: shodan_api_info
 ```
 
-You can find [examples of all the `ansible shodan` modules used as playbooks](https://github.com/simeononsecurity/ansible_shodan/tree/main/collections/ansible_collections/simeononsecurity/shodan/playbooks) here.
+You can find [examples of all the `ansible shodan` modules used as playbooks](https://github.com/simeononsecurity/ansible_shodan/tree/main/collections/ansible_collections/simeononsecurity/shodan/playbooks).
 
 ## Contributing
 Contributions to this collection are welcome! If you have improvements or new modules to add, please fork this repository, create a new branch, and submit a pull request.
@@ -58,6 +58,7 @@ This Ansible Shodan Modules collection is authored by [SimeonOnSecurity](https:/
 Special thanks to the Shodan API for providing the capabilities to interact with their service using Ansible.
 
 ## Alternate Versions
+### PowerShell
 If you need a version in powershell, we have our [Shodan Powershell repo](https://github.com/simeononsecurity/Shodan_PS).
 
 <a href="https://simeononsecurity.ch" target="_blank" rel="noopener noreferrer">
