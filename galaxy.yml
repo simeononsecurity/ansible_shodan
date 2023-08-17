@@ -7,8 +7,6 @@ homepage: "https://github.com/simeononsecurity/ansible_shodan"
 issues: "https://github.com/simeononsecurity/ansible_shodan/issues"
 authors:
     - "SimeonOnSecurity (https://simeononsecurity.ch)"
-license:
-    - "MIT"
 license_file: LICENSE
 tags:
     - ansible
