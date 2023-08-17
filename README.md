@@ -43,6 +43,8 @@ To use these modules, include them in your Ansible playbooks or roles and refere
         var: shodan_api_info
 ```
 
+You can find [examples of all the `ansible shodan` modules used as playbooks](https://github.com/simeononsecurity/ansible_shodan/tree/main/collections/ansible_collections/simeononsecurity/shodan/playbooks) here.
+
 ## Contributing
 Contributions to this collection are welcome! If you have improvements or new modules to add, please fork this repository, create a new branch, and submit a pull request.
 
