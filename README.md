@@ -45,7 +45,7 @@ To use these modules, include them in your Ansible playbooks or roles and refere
 Contributions to this collection are welcome! If you have improvements or new modules to add, please fork this repository, create a new branch, and submit a pull request.
 
 ## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the MIT License. See the [`LICENSE`](https://github.com/simeononsecurity/ansible_shodan/blob/main/LICENSE) file for details.
 
 ## Author
 This Ansible Shodan Modules collection is authored by [SimeonOnSecurity](https://simeononsecurity.ch/).
