@@ -1,0 +1,12 @@
+---
+- name: Get Shodan Ports
+  hosts: localhost
+  tasks:
+    - name: Get Shodan Ports
+      simeononsecurity.ansible_shodan.get_shodan_ports:
+        api: "{{ shodan_api_key }}"
+      register: shodan_ports_result
+
+    - name: Display Shodan Ports
+      debug:
+        var: shodan_ports_result.result

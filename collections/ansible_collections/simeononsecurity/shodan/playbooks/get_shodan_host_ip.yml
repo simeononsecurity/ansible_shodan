@@ -1,0 +1,14 @@
+---
+- name: Get Shodan Host IP
+  hosts: localhost
+  tasks:
+    - name: Get Shodan Host IP
+      simeononsecurity.ansible_shodan.get_shodan_host_ip:
+        api: "{{ shodan_api_key }}"
+        ip: "8.8.8.8"
+        minify: true
+      register: shodan_host_ip_result
+
+    - name: Display Shodan Host IP
+      debug:
+        var: shodan_host_ip_result.result

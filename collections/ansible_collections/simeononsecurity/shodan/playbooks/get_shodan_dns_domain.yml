@@ -1,0 +1,13 @@
+---
+- name: Get Shodan DNS Domain
+  hosts: localhost
+  tasks:
+    - name: Get Shodan DNS Domain
+      simeononsecurity.ansible_shodan.get_shodan_dns_domain:
+        api: "{{ shodan_api_key }}"
+        domain: "google.com"
+      register: shodan_dns_domain_result
+
+    - name: Display Shodan DNS Domain
+      debug:
+        var: shodan_dns_domain_result.result

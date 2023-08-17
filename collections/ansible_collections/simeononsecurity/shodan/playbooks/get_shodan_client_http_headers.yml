@@ -1,0 +1,12 @@
+---
+- name: Get Shodan Client HTTP Headers
+  hosts: localhost
+  tasks:
+    - name: Get Shodan Client HTTP Headers
+      simeononsecurity.ansible_shodan.get_shodan_client_http_headers:
+        api: "{{ shodan_api_key }}"
+      register: shodan_client_http_headers_result
+
+    - name: Display Shodan Client HTTP Headers
+      debug:
+        var: shodan_client_http_headers_result.result

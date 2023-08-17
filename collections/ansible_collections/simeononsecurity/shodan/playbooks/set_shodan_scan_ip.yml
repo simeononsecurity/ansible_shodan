@@ -1,0 +1,13 @@
+---
+- name: Set Shodan Scan IP
+  hosts: localhost
+  tasks:
+    - name: Set Shodan Scan IP
+      simeononsecurity.ansible_shodan.set_shodan_scan_ip:
+        api: "{{ shodan_api_key }}"
+        ips: "8.8.8.8/32"
+      register: shodan_scan_ip_result
+
+    - name: Display Shodan Scan IP Result
+      debug:
+        var: shodan_scan_ip_result.result

@@ -1,0 +1,15 @@
+---
+- name: Get Shodan Host Search
+  hosts: localhost
+  tasks:
+    - name: Get Shodan Host Search
+      simeononsecurity.ansible_shodan.get_shodan_host_search:
+        api: "{{ shodan_api_key }}"
+        query: "apache"
+        facet: "org"
+        minify: true
+      register: shodan_host_search_result
+
+    - name: Display Shodan Host Search
+      debug:
+        var: shodan_host_search_result.result

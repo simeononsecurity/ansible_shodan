@@ -1,0 +1,53 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment directories
+venv/
+env/
+.virtualenv/
+
+# Ignore local development settings
+.local/
+*.log
+
+# Ignore Ansible artifacts
+*.retry
+*.swp
+*.swo
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore editor-specific files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore cache directories
+ansible_facts/
+
+# Ignore built distributions
+dist/
+build/
+*.egg-info/
+
+# Ignore module-specific artifacts
+*.pyc
+*.pyo
+*.class
+
+# Ignore documentation build artifacts
+doc/build/
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak

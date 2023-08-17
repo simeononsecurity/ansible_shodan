@@ -1,0 +1,12 @@
+---
+- name: Get Shodan Scan Protocols
+  hosts: localhost
+  tasks:
+    - name: Get Shodan Scan Protocols
+      simeononsecurity.ansible_shodan.get_shodan_scan_protocols:
+        api: "{{ shodan_api_key }}"
+      register: shodan_scan_protocols_result
+
+    - name: Display Shodan Scan Protocols
+      debug:
+        var: shodan_scan_protocols_result.result

@@ -1,0 +1,18 @@
+namespace: "simeononsecurity"
+name: "ansible_shodan"
+description: "Ansible modules for Shodan API interaction"
+version: "1.0.0"
+readme: "README.md"
+homepage: "https://github.com/simeononsecurity/ansible_shodan"
+issues: "https://github.com/simeononsecurity/ansible_shodan/issues"
+authors:
+    - "SimeonOnSecurity (https://simeononsecurity.ch)"
+license:
+    - "MIT"
+license_file: LICENSE
+tags:
+    - ansible
+    - shodan
+    - modules
+    - collection
+repository: "https://github.com/simeononsecurity/ansible_shodan"

@@ -1,0 +1,12 @@
+---
+- name: Get Shodan Host Search Facets
+  hosts: localhost
+  tasks:
+    - name: Get Shodan Host Search Facets
+      simeononsecurity.ansible_shodan.get_shodan_host_search_facets:
+        api: "{{ shodan_api_key }}"
+      register: shodan_host_search_facets_result
+
+    - name: Display Shodan Host Search Facets
+      debug:
+        var: shodan_host_search_facets_result.result

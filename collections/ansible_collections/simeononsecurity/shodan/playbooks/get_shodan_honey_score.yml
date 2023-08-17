@@ -1,0 +1,13 @@
+---
+- name: Get Shodan Honey Score
+  hosts: localhost
+  tasks:
+    - name: Get Shodan Honey Score
+      simeononsecurity.ansible_shodan.get_shodan_honey_score:
+        api: "{{ shodan_api_key }}"
+        ip: "8.8.8.8"
+      register: shodan_honey_score_result
+
+    - name: Display Shodan Honey Score
+      debug:
+        var: shodan_honey_score_result.result

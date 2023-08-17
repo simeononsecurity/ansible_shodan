@@ -1,0 +1,12 @@
+---
+- name: Get Shodan Client IP
+  hosts: localhost
+  tasks:
+    - name: Get Shodan Client IP
+      simeononsecurity.ansible_shodan.get_shodan_client_ip:
+        api: "{{ shodan_api_key }}"
+      register: shodan_client_ip_result
+
+    - name: Display Shodan Client IP
+      debug:
+        var: shodan_client_ip_result.result

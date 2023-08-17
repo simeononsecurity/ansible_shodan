@@ -1,0 +1,13 @@
+---
+- name: Get Shodan Scan ID
+  hosts: localhost
+  tasks:
+    - name: Get Shodan Scan ID
+      simeononsecurity.ansible_shodan.get_shodan_scan_id:
+        api: "{{ shodan_api_key }}"
+        id: "YOUR_SCAN_ID"
+      register: shodan_scan_id_result
+
+    - name: Display Shodan Scan ID
+      debug:
+        var: shodan_scan_id_result.result

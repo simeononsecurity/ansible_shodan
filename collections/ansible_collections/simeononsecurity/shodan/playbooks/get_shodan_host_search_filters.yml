@@ -1,0 +1,12 @@
+---
+- name: Get Shodan Host Search Filters
+  hosts: localhost
+  tasks:
+    - name: Get Shodan Host Search Filters
+      simeononsecurity.ansible_shodan.get_shodan_host_search_filters:
+        api: "{{ shodan_api_key }}"
+      register: shodan_host_search_filters_result
+
+    - name: Display Shodan Host Search Filters
+      debug:
+        var: shodan_host_search_filters_result.result

@@ -1,0 +1,13 @@
+---
+- name: Get Shodan DNS Reverse
+  hosts: localhost
+  tasks:
+    - name: Get Shodan DNS Reverse
+      simeononsecurity.ansible_shodan.get_shodan_dns_reverse:
+        api: "{{ shodan_api_key }}"
+        ips: "8.8.8.8,8.8.4.4"
+      register: shodan_dns_reverse_result
+
+    - name: Display Shodan DNS Reverse
+      debug:
+        var: shodan_dns_reverse_result.result

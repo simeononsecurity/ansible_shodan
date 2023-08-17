@@ -1,0 +1,12 @@
+---
+- name: Use Shodan API Info Module
+  hosts: localhost
+  tasks:
+    - name: Get Shodan API Info
+      simeononsecurity.ansible_shodan.get_shodan_api_info:
+        api: "{{ shodan_api_key }}"
+      register: shodan_api_result
+
+    - name: Display Shodan API Info
+      debug:
+        var: shodan_api_result.result

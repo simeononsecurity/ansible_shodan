@@ -1,0 +1,12 @@
+---
+- name: Get Shodan Profile
+  hosts: localhost
+  tasks:
+    - name: Get Shodan Profile
+      simeononsecurity.ansible_shodan.get_shodan_profile:
+        api: "{{ shodan_api_key }}"
+      register: shodan_profile_result
+
+    - name: Display Shodan Profile
+      debug:
+        var: shodan_profile_result.result
