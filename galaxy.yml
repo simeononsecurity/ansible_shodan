@@ -3,7 +3,7 @@ name: "ansible_shodan"
 description: "Ansible modules for Shodan API interaction"
 version: "1.0.1"
 readme: "README.md"
-homepage: "https://github.com/simeononsecurity/ansible_shodan"
+homepage: "https://simeononsecurity.ch"
 issues: "https://github.com/simeononsecurity/ansible_shodan/issues"
 authors:
     - "SimeonOnSecurity (https://simeononsecurity.ch)"
