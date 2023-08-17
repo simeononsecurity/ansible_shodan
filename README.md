@@ -54,3 +54,6 @@ This Ansible Shodan Modules collection is authored by [SimeonOnSecurity](https:/
 
 ## Acknowledgments
 Special thanks to the Shodan API for providing the capabilities to interact with their service using Ansible.
+
+## Alternate Versions
+If you need a version in powershell, we have our [Shodan Powershell repo](https://github.com/simeononsecurity/Shodan_PS).
