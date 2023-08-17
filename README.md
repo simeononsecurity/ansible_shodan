@@ -15,6 +15,7 @@ This collection includes the following modules:
 - [`get_shodan_client_ip`](https://github.com/simeononsecurity/ansible_shodan/tree/main/collections/ansible_collections/simeononsecurity/shodan/plugins/modules/get_shodan_client_ip.py): Get your current IP address as seen from the Internet.
 - See more at the [modules directory..](https://github.com/simeononsecurity/ansible_shodan/tree/main/collections/ansible_collections/simeononsecurity/shodan/plugins/modules/)
 
+
 ## Installation
 
 You can install this collection using the following command:
