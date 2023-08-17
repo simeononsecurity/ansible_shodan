@@ -10,10 +10,10 @@ This collection provides Ansible modules for interacting with the Shodan API. Th
 
 This collection includes the following modules:
 
-- [`get_shodan_api_info`](https://github.com/simeononsecurity/ansible_shodan/tree/main/collections/ansible_collections/simeononsecurity/shodan/plugins/modules/get_shodan_api_info.py): Returns information about the API plan linked to the given API key.
-- [`get_shodan_client_http_headers`](https://github.com/simeononsecurity/ansible_shodan/tree/main/collections/ansible_collections/simeononsecurity/shodan/plugins/modules/get_shodan_client_http_headers.py): Shows the HTTP headers that your client sends when connecting to a web server.
-- [`get_shodan_client_ip`](https://github.com/simeononsecurity/ansible_shodan/tree/main/collections/ansible_collections/simeononsecurity/shodan/plugins/modules/get_shodan_client_ip.py): Get your current IP address as seen from the Internet.
-- See more at the [modules directory..](https://github.com/simeononsecurity/ansible_shodan/tree/main/collections/ansible_collections/simeononsecurity/shodan/plugins/modules/)
+- [`get_shodan_api_info`](https://github.com/simeononsecurity/ansible_shodan/blob/main/collections/ansible_collections/simeononsecurity/shodan/plugins/modules/get_shodan_api_info.py): Returns information about the API plan linked to the given API key.
+- [`get_shodan_client_http_headers`](https://github.com/simeononsecurity/ansible_shodan/blob/main/collections/ansible_collections/simeononsecurity/shodan/plugins/modules/get_shodan_client_http_headers.py): Shows the HTTP headers that your client sends when connecting to a web server.
+- [`get_shodan_client_ip`](https://github.com/simeononsecurity/ansible_shodan/blob/main/collections/ansible_collections/simeononsecurity/shodan/plugins/modules/get_shodan_client_ip.py): Get your current IP address as seen from the Internet.
+- See more at the [modules directory..](https://github.com/simeononsecurity/ansible_shodan/tree/main/collections/ansible_collections/simeononsecurity/shodan/plugins/modules)
 
 
 ## Installation
