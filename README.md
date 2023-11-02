@@ -52,7 +52,7 @@ Contributions to this collection are welcome! If you have improvements or new mo
 This project is licensed under the MIT License. See the [`LICENSE`](https://github.com/simeononsecurity/ansible_shodan/blob/main/LICENSE) file for details.
 
 ## Author
-This Ansible Shodan Modules collection is authored by [SimeonOnSecurity](https://simeononsecurity.ch/).
+This Ansible Shodan Modules collection is authored by [SimeonOnSecurity](https://simeononsecurity.com/).
 
 ## Acknowledgments
 Special thanks to the Shodan API for providing the capabilities to interact with their service using Ansible.
@@ -61,10 +61,10 @@ Special thanks to the Shodan API for providing the capabilities to interact with
 ### PowerShell
 If you need a version in powershell, we have our [Shodan Powershell repo](https://github.com/simeononsecurity/Shodan_PS).
 
-<a href="https://simeononsecurity.ch" target="_blank" rel="noopener noreferrer">
+<a href="https://simeononsecurity.com" target="_blank" rel="noopener noreferrer">
   <h2>Explore the World of Cybersecurity</h2>
 </a>
-<a href="https://simeononsecurity.ch" target="_blank" rel="noopener noreferrer">
-  <img src="https://simeononsecurity.ch/img/banner.png" alt="SimeonOnSecurity Logo" width="300" height="300">
+<a href="https://simeononsecurity.com" target="_blank" rel="noopener noreferrer">
+  <img src="https://simeononsecurity.com/img/banner.png" alt="SimeonOnSecurity Logo" width="300" height="300">
 </a>
 
