@@ -1,5 +1,6 @@
 # Ansible Shodan Modules
 
+[![Sponsor](https://img.shields.io/badge/Sponsor-Click%20Here-ff69b4)](https://github.com/sponsors/simeononsecurity) 
 ![Ansible](https://img.shields.io/badge/ansible-2.10%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
